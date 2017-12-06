@@ -1,6 +1,6 @@
 ## What is NonparametricKNN
 
-It is a KNN regressor that gives predictions based on customized loss function. KNN regressor in `sklearn` simply gives mean value of nearest neighbors as prediction, while NonparametricKNN will search the neighbors to find out if it could give a prediction that is better than the mean value. NonparametricKNN could significantly outperform ordinary KNN, especially when the loss function is strange (for example, SMAPE). Though grid search is time consuming, NonparametricKNN is still fairly fast.
+It is a KNN regressor that gives predictions based on customized loss function. KNN regressor in `sklearn` simply gives mean value of nearest neighbors as prediction, while NonparametricKNN will search the neighbors to find out if it could give a prediction that is better than the mean value. NonparametricKNN could significantly outperform ordinary KNN, especially when the loss function is strange (for example, SMAPE). Though the searching process is time consuming, NonparametricKNN is still fairly fast.
 
 NonparametricKNN supports:
 
